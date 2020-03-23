@@ -9,6 +9,8 @@ $(document).ready(function(){
     });
   }
 
+  getIt();
+
   function frameIt() {
 
   }
