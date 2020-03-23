@@ -6,7 +6,9 @@ function getIt() {
 }
 
 function frameIt() {
-
+  $('.tasty').on('load', function() {
+    $('img').css('border', 'red');
+  });
 }
 
 function pressIt() {
