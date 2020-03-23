@@ -12,7 +12,11 @@ function frameIt() {
 }
 
 function pressIt() {
-
+  $('input').on('keydown', function(key) {
+    if(key.keycode === 'g') {
+      alert('G was pressed');
+    }
+  });
 }
 
 function submitIt() {
